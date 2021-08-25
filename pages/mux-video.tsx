@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import '@mux/mux-video'
 
 const Home: NextPage = () => {
 
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
     // import this client side b/c ES modules on the server are no-bueno
     // https://github.com/vercel/next.js/issues/9890
     //
-    import('@mux/mux-video');
+    // import('@mux/mux-video');
   }, [])
 
   return (
@@ -34,6 +35,10 @@ const Home: NextPage = () => {
       <style jsx>{`
         main {
           padding: 60px;
+        }
+        :global(mux-video) {
+          width: 100%;
+          max-width: 500px;
         }
       `}
       </style>

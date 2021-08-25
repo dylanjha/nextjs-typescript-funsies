@@ -114,10 +114,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@mux/mux-video@file:../../@muxinc/elements-mono/packages/mux-video":
+"@mux-elements/mux-video@0.1.0":
   version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@mux-elements/mux-video/-/mux-video-0.1.0.tgz#b1b7ecd25331b15fe7ddd6be8ce17159e9fac6b7"
+  integrity sha512-WouQb/BKVsNWVW/Cj4dkgiSUXxf1WMWaomg0HzJxqYygrxmmPhuYDP8lRKWLmf4xiaCMBUF7we71psHY6OPZag==
   dependencies:
-    custom-video-element "^0.0.2"
     hls.js "^1.0.9"
     mux-embed "^4.1.1"
 
@@ -813,11 +814,6 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
-custom-video-element@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/custom-video-element/-/custom-video-element-0.0.2.tgz#aead266cef4ad6bc046e269472744ff76e4d7e43"
-  integrity sha512-kkuWKjaHZfy6lVwNlbjbgbXxkQLsPbCARUwDiZyfdPQ2nbDJMuuaQUWDUpxhpkc3b3M30eqxjHbz86gfQyL9aQ==
-
 damerau-levenshtein@^1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.7.tgz#64368003512a1a6992593741a09a9d31a836f55d"
@@ -1485,9 +1481,9 @@ he@1.2.0:
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
 hls.js@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-1.0.9.tgz#a3b92a0a2a4cdb3076c09639a8e06463b3a189f5"
-  integrity sha512-uUfvc53QawXMH8fRd2IGPEtWlujsiX/Xj8oW/tx+T8yY1kHRpI8o1brsLRGJMivAyNBtdB/3ZV4fTdZ+DAiCEQ==
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-1.0.10.tgz#2626c19e0a32904c1915a842c591f9b0a9f5066b"
+  integrity sha512-P+o/wjGJsnqwdXXYfWvopOceXEXFV0H8vs/T+ApsscP/GlpUtdIRWie7qc+jbml95ThjE6+FVci9VGaD51r/6Q==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
