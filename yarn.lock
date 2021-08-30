@@ -114,10 +114,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@mux-elements/mux-video@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@mux-elements/mux-video/-/mux-video-0.1.0.tgz#b1b7ecd25331b15fe7ddd6be8ce17159e9fac6b7"
-  integrity sha512-WouQb/BKVsNWVW/Cj4dkgiSUXxf1WMWaomg0HzJxqYygrxmmPhuYDP8lRKWLmf4xiaCMBUF7we71psHY6OPZag==
+"@mux-elements/mux-audio@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@mux-elements/mux-audio/-/mux-audio-0.1.1.tgz#d63dffcf2833196d9d6c79c3a005f8538d4afcf8"
+  integrity sha512-6OiSCXFkVSmA45Yt0Ztk9ocn1fX/uOzGwziqzHE7z6kJ85qxUZtO7K9KiuvDpUi/McjtUXt9+BlbbW33un3axg==
+  dependencies:
+    hls.js "^1.0.9"
+    mux-embed "^4.1.1"
+
+"@mux-elements/mux-video@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@mux-elements/mux-video/-/mux-video-0.1.1.tgz#2a147333bfe021fe82d65d7e71daaea964744557"
+  integrity sha512-CH6BKnZHPZqookxFpojW/rhcSUcFL8Q5rBUH1AkV/1FcIcxcSo4XxMs8LhGHBroOkDKr43Y2ZEwYSBwggB+PiA==
   dependencies:
     hls.js "^1.0.9"
     mux-embed "^4.1.1"

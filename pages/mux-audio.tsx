@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import '@mux-elements/mux-video'
+import '@mux-elements/mux-audio'
 
 const Home: NextPage = () => {
 
@@ -21,15 +21,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <mux-video
-          playback-id="DS00Spx1CV902MCtPj5WknGlR102V5HFkDe"
+        <mux-audio
+          playback-id="vDpm5ygrRJgfIEPNIc02IJR4Trf3z00AiP"
           controls
           autoplay
-          muted
           debug
           env-key="cqtqt2jfbq235huvso0djbn56"
         >
-        </mux-video>
+        </mux-audio>
 
       </main>
       <style jsx>{`
